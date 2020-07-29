@@ -1,0 +1,58 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+img {
+  width: 500px;
+
+}
+
+#img{
+  background-color: #759FBC;
+  box-shadow: 0px 6px #759FBC;
+  border-radius: 150px;
+
+}
+.social-nets{
+  font-size: : 500px;
+}
+.header{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+}
+
+.text{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 30px;
+}
+
+.icon{
+  font-size: 70px;
+  padding: 20px;
+}
+body {
+  background-color: #759FBC;
+}
+div{
+  box-shadow: 0px 6px #04622A;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px;
+  background-color: #047632;
+  text-align: center;
+}
+
