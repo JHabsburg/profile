@@ -11,19 +11,28 @@
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+  /* For a screen < 540px, this CSS will be read  overflow: hidden; */
   .container {
     width: 300px;
   }
 }
 img {
+  display: inline-block;
+  position: relative;
   width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 5px solid #449C8A;
+  }
+.container{}
 
+#space{
+  margin: 50px
+  background-color: #BEE3DB;
 }
-
 #img{
-  background-color: #759FBC;
-  box-shadow: 0px 6px #759FBC;
+  background-color: #BEE3DB;
+  box-shadow: 0px 6px #BEE3DB;
   border-radius: 150px;
 
 }
@@ -43,16 +52,20 @@ img {
 .icon{
   font-size: 70px;
   padding: 20px;
+  color:#BEE3DB;
+}
+.icon:hover{
+  color: black;
 }
 body {
-  background-color: #759FBC;
+  background-color: #BEE3DB;
 }
 div{
-  box-shadow: 0px 6px #04622A;
+  box-shadow: 0px 6px #5A8784;
   border-radius: 10px;
   padding: 20px;
-  margin: 40px;
-  background-color: #047632;
+  margin: 40px 350px;
+  background-color: #89B0AE;
   text-align: center;
 }
 
